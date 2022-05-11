@@ -10,3 +10,7 @@ services:
     command: ["flask", "run"]
     volumes:
       - .:/home/myuser
+
+
+
+      
