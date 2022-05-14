@@ -1,9 +1,9 @@
-FROM Python:3.8
+FROM python:3.8
 
 WORKDIR /app
 
 COPY . .
-RUN pip install -r requirementrts.txt
+RUN pip install -r requirements.txt
 
 ENTRYPOINT ["python"]
 
